@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>ALUMNI FORM</title>
+</head>
+<body>
+<div class="container">
+    <div class="form_content">
+        <span class="alumni">
+    <form action="./form.php" method="post">
+       
+        <div class="logo">
+            <div class="logo_content">
+                <img src="./images/jkuat logo.png" id="logo">
+            </div>
+        </div>
+
+        <div>
+            <h1 id="head">ALUMNI FORM</h1>
+        </div>
+        <div class="form">
+          <label>Firstname
+            <input type="text" name="firstname">
+          </label>
+      </div>
+        <br>
+        <br>
+        <div class="form">
+            <label>Lastname
+            <input type="text" name="lastname">
+            </label>
+        </div>
+        <br>
+        <br>
+        <div class="form">
+            <label>Gender<br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br> 
+            </label>
+        </div>
+        <br>
+        <br>
+        <div class="form">
+            <label>Course
+            <input type="text" name="coursename">
+            </label>
+         </div>
+         <br>
+        <br>
+        <div class="form">
+            <label>End year
+            <select name="endyear">
+                <option value=2016>2016</option>
+                <option value=2017>2017</option>
+                <option value=2018>2018</option>
+                <option value=2019>2019</option>
+                <option value=2020>2020</option>
+                <option value=2021>2021</option>
+                <option value=2022>2022</option>
+            </select>
+        </label>
+        </div>
+        <br>
+        <br>
+        <div class="form">
+             <label>Phone<br>number
+                <input type="tel" name="phonenumber">
+            </label>
+        </div>
+        <br>
+        <br>
+        <div class="form">
+            <label>Email
+                 <input type="email" name="email">
+            </label>
+         </div>
+        <br>
+        <br>
+        <div class="form">
+            <label>Comment<br>
+                <textarea rows="5" cols="35" placeholder="comment" name="comment"></textarea>
+            </label>
+           
+        </div>
+        <br>
+        <div class="form" id="submit">
+            <input type="submit" value="submit">
+        </div>
+        <br>
+    </form>
+</span>
+</div>
+</div>
+</body>
+</html>

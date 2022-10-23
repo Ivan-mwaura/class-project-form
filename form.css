@@ -1,0 +1,32 @@
+.form_content{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+.alumni{
+    border: 2px blue solid;
+    padding: 20px 40px 20px 40px;
+    border-radius: 5px;
+    background-color: rgb(247, 246, 244);
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo{
+    padding-left: 70px;
+}
+#head{
+    color:rgb(6, 192, 6);
+}
+body{
+    background-color: rgb(0, 138, 0);
+}
+.heading{
+    padding-left: 80pxpx;
+}
+
+
+  
